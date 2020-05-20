@@ -1,0 +1,29 @@
+:root {
+    background: #000;
+    color: #BFF000;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--color);
+    font-family: Consolas, sans-serif;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+input[name="command"] {
+    background-color: var(--background);
+    color: var(--color);
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+    margin-left: 5px;
+}
+
+p {
+    margin: 5px 0;
+}
